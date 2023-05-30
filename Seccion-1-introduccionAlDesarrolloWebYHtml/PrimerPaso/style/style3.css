@@ -1,0 +1,18 @@
+.contenedor{
+    border: darkkhaki;
+}
+
+#content1{
+    align-items: top;
+    background-color: coral;
+}
+
+#content2{
+    align-items: center;
+    background-color: cornflowerblue;
+}
+
+#content3{
+    align-items: bottom;
+    background-color: darkseagreen;
+}

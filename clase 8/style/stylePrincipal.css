@@ -1,0 +1,86 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+#headerPrincipal {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+#unorderListPrincipal {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.listItem {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.linksPrincipal {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.linksPrincipal :hover {
+  color: #1bf7de;
+}
+
+@media (max-width: 767px) {
+    #headerPrincipal {
+        background-color: #065a25ab;
+    }    
+    #navPrincipal{
+        font-size: 16px;
+    }
+}    
+
+@media (min-width: 1200px) {
+    #headerPrincipal {
+        width: 100%;
+    }    
+}    
+
+@media (max-width: 768px) {
+    .column {
+      flex: 100%;
+    }
+  
+  
+    .nav-links {
+      display: none;
+    }
+  
+  
+    .button-menu-toggle {
+      display: block;
+      background-color: white;
+      border:none;
+      border-radius: 50px;
+      padding: 0 24px;
+      font-family: monospace;
+      font-weight: bold;
+      font-size: 20px;
+    }
+   
+    #navPrincipal#nav-links-responsive {
+      position: absolute;
+      display: flex;
+      background-color: rgba(20,20,20,0.95);
+      width: 100%;
+      height: 100%;
+      top: 70px;
+      left: 0;
+      flex-direction: column;
+      padding-top: 200px;
+      align-items: center;
+      gap:70px;
+      font-size: 40px;
+  
+  
+    }
+  }

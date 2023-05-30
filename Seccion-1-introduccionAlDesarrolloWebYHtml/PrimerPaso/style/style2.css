@@ -1,0 +1,41 @@
+.box{
+    background-color: red;
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 50px;
+}
+.textos{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#botonsito{
+    align-items: center;
+    width: 150px;
+    height: 80px;
+    background: rgba(202, 130, 29, 0.541);
+    border-radius: 30px;
+    border: black solid 3px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80%;
+    padding: 10px;
+    margin: 5px;
+}
+.primerNumero{
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+    background-color: rgba(29, 225, 225, 0.465);
+    
+}
+.segundoNumero{
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+    background-color: rgba(60, 39, 197, 0.425);
+    
+}

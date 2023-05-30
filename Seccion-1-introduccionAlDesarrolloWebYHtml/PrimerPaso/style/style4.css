@@ -1,0 +1,22 @@
+
+#divPrimero{
+    background-color: rgb(6, 110, 22);
+}
+
+#divSegundo{
+    background-color: rgb(112, 18, 152);
+}
+
+#divCentral{
+    background-color: rgb(251, 149, 39);
+}
+
+.divs{
+    display: flex;
+    justify-content: center;
+    border: black solid 2px;
+    margin: 30px;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+}
